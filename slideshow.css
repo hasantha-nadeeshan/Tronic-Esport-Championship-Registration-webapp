@@ -1,0 +1,432 @@
+* {box-sizing: border-box;}
+@font-face
+{
+    font-family: 'evil-empire-Regular';
+  src: url('Fonts/evil-empire-Regular.eot');
+  src: url('Fonts/evil-empire-Regular.eot?#') format('embedded-opentype'),
+      url('Fonts/evil-empire-Regular.woff') format('woff'),
+      url('Fonts/evil-empire-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'aruto';
+    src: url('Fonts/Arturo-Light\ Trial.ttf') format('truetype');
+}
+
+
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url('whiteback.jpg');
+    background-attachment: fixed;
+    width: 100%;
+   
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+}
+.reg {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .rule1 {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+ 
+  
+  #mybutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+  #mybutton2{
+      
+      position:fixed;
+      left: 20px;
+      bottom: 20px;
+      z-index: 2;
+  }
+
+
+.logo{
+    display:block;
+    position: relative;;
+    top: -220px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1.0;
+    width:130px;
+}
+.eclub{
+    display:block;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 1.0;
+    width:50px;
+    height: 50px;
+}
+.entc{
+    display:block;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 1.0;
+    width:100px;
+}
+.headtitle{
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -260px;
+    font-family:evil-empire-Regular ;
+    font-style: oblique;
+}
+.intro{
+    color: white;
+    font-size: 9px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -260px;
+    font-family: aruto;
+    font-style: oblique;
+    padding: 10px;
+}
+
+.heading{
+    padding-bottom: 15%;
+    height: 200px;
+    width: 100%;
+   
+}
+.headingimg{
+    height: 200px;
+    width: 100%;
+    
+}
+.mySlides {
+    display: none;
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    padding: 0px;
+    z-index: -1;
+}
+.videowrapper{    
+    width: 100%;   
+}
+.slideshow-container {
+    width: 100%;
+}
+.regwrapper{
+    width: 100%;
+    
+}
+.regimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 200px;
+    padding-bottom: 9px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+.image{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+
+@media screen and (min-width: 720px){
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .slideshow-container {
+        padding-top: 10px;   
+    }
+    .video{
+        height: 300px;
+    }
+    .image{
+        height: 330px;
+    }
+    .heading{
+        height: 450px;
+    }
+    .headingimg{
+        height: 450px;
+    }
+    .logo{
+        position: relative;
+        top: -480px;
+        left: auto;
+        right: auto;
+        width: 250px;
+    }
+    .headtitle{
+        font-size: 42px;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: -510px;
+        
+    }
+    .intro{
+        font-size: 20px;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: -500px;
+    }
+    .entc{
+        width: 150px;
+    }
+    .eclub{
+        width: 100px;
+        height: 100px;
+    }
+    .regimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70px;
+        width:200px;
+        padding-bottom:15px;
+    }
+   
+    
+    
+}
+
+@media screen and (min-width: 1000px){
+    .wrapper{
+        width: 100%;
+        margin: auto;
+    }
+    .videowrapper{
+        padding:0px 0px 0px 0px;
+        float: left;
+        height: 300px;
+        width: 700px;   
+        padding-right: 50px;
+        padding-left: 100px;
+    }
+    .slideshow-container {
+        height: 300px;
+        padding-top: 0px;
+        float: left;
+        width: 550px;  
+        padding-right: 50px;  
+    }
+    .image{
+        height: 300px;
+    }
+    .video{
+       
+        height: 300px;
+    }
+    .heading{
+        padding: 10px 10px 10px 10px;
+        height: 900px;
+    }
+    .headingimg{
+        height: 900px;
+    }
+    
+    .logo{
+        position: relative;
+        top: -960px;
+        left: auto;
+        right: auto;
+        width: 450px;
+    }
+    .headtitle{
+        font-size: 60px;
+        position: relative;
+        top: -970px;
+       
+    }
+    .intro{
+        font-size: 30px;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: -900px;
+    }
+    .entc{
+        width: 200px;
+    }
+    .eclub{
+        width: 120px;
+    }
+    .line2{
+        position: relative;
+        top: -440px;
+        width: 100%;
+    }
+    .regimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        width: 300px;
+        padding-bottom: 5px;
+    }
+    .regwrapper{
+        height: 300px;
+        float: left;
+        width: 100%;
+    }
+    .regblock1{
+        height: 100px;
+        position: relative;
+        top: 70px;
+        float: left;
+        width: 30%;  
+    }
+    .regblock2{
+        height: 100px;
+        position: relative;
+        top: 70px;
+        left: 70px;
+        float: left;
+        width: 30%;  
+    }
+    .regblock3{
+        height: 100px;
+        position: relative;
+        top: 70px;
+        float: right;
+        width: 30%;  
+    }
+    
+    .footer{
+        position: relative;
+        top: 200px;
+    }
+    .rules{
+        display: none;
+    }
+    .rulebutton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #mybutton2{
+        display: block;
+    }
+    .footer1{
+        display: none;
+    }
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Caption text */
+.text {
+  color: #4b4a4a;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.mySlides {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'evil-empire-Regular';
+  src: url('evil-empire-Regular.eot');
+  src: url('evil-empire-Regular.eot?#') format('embedded-opentype'),
+      url('evil-empire-Regular.woff') format('woff'),
+      url('evil-empire-Regular.ttf') format('truetype');
+}
